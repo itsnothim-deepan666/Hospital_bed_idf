@@ -1,0 +1,40 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.port": "detect",
+  "idf.currentSetup": "/home/deepan/.espressif/v6.0/esp-idf",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32"
+  },
+  "clangd.path": "/home/deepan/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/home/deepan/build/motor_ros/build"
+  ],
+  "ROS2.distro": "humble",
+  "python.autoComplete.extraPaths": [
+    "/home/deepan/bed/bed_ws/install/camera_node/lib/python3.10/site-packages",
+    "/home/deepan/ros_ws/build/my_robot_controller",
+    "/home/deepan/ros_ws/install/my_robot_controller/lib/python3.10/site-packages",
+    "/home/deepan/ros_ws/build/my-test-package",
+    "/home/deepan/ros_ws/install/my-test-package/lib/python3.10/site-packages",
+    "/home/deepan/ros_ws/build/camera_node",
+    "/home/deepan/ros_ws/install/camera_node/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/deepan/bed/bed_ws/install/camera_node/lib/python3.10/site-packages",
+    "/home/deepan/ros_ws/build/my_robot_controller",
+    "/home/deepan/ros_ws/install/my_robot_controller/lib/python3.10/site-packages",
+    "/home/deepan/ros_ws/build/my-test-package",
+    "/home/deepan/ros_ws/install/my-test-package/lib/python3.10/site-packages",
+    "/home/deepan/ros_ws/build/camera_node",
+    "/home/deepan/ros_ws/install/camera_node/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ]
+}

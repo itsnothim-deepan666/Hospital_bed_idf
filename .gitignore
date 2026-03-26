@@ -1,2 +1,17 @@
+# Keep microros folder ignored
 /microros
-.vscode/
+
+# Build output directories
+build/
+sdkconfig
+sdkconfig.old
+
+# ESP-IDF specific files
+*.bin
+*.elf
+*.map
+flasher_args.json
+
+# Logs and temporary files
+*.log
+*.tmp
