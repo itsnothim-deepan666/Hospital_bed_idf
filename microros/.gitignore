@@ -3,3 +3,30 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+
+# PlatformIO build files
+.pio/
+.clang_complete
+*.elf
+*.map
+*.bin
+*.hex
+
+# Build output directories
+build/
+
+# IDE-specific files
+.vscode/
+*.db
+*.pyc
+*.pyo
+*.swp
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Core dumps and debug files
+*.core
+*.bak
+*.dmp

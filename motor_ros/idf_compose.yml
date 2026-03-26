@@ -1,0 +1,4 @@
+dependencies:
+  micro_ros_espidf_component:
+    override_path: components/micro_ros_espidf_component
+    
